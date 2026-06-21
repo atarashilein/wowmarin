@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0 ;padding: 0}
+
+body {background-image: url("../IMG/backMesto_4_3.jpg"); background-repeat:no-repeat; background-size:cover ; background-attachment:fixed; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";}
+
+.borel-regular {font-family: "Borel", cursive;font-weight: 400;font-style: normal;}
+
+.homeboton {position: fixed ; right: 5vw; bottom: 5vh; z-index: 99;}
+
+.wrapper {width: 90vw; background-color: rgba(202,202,202,0.60); margin-left: auto; margin-right: auto; text-align: center; padding: 30px; box-sizing: border-box}
+/*el border box es para que el padding mantenga el tamaño de la caja, o sea ajuste su pad al interior*/
+
+footer {background-color: rgba(255,207,231,1.00); width: 90vw; margin-left: auto; margin-right: auto; text-align: center; color: white; height: auto; line-height: 50px; font-size: 12px}
+footer a {text-decoration: none; color: white;}
+footer a:hover {color: magenta;}
+
+.nav {background-color: rgba(255,207,231,1.00); width: 90vw; margin-left: auto; margin-right: auto; height: 250px; text-align: center; color: white;}
+.nav img {margin-top: 20px; margin-bottom: 10px;}
+.nav ul {list-style: none; }
+.nav li {width: 20%; float: left; line-height: 50px; }
+
+.seccion {width: 80%; background-color:rgba(247,138,199,1.00); padding: 70px; box-sizing: border-box; margin: 50px auto; color: white; position: relative;}
+.seccion img {width: auto; height: 300px;}
+.seccion p {text-align: justify;font-family: "Roboto", sans-serif; font-optical-sizing: auto; font-weight: auto ;font-style: normal;font-variation-settings:"wdth" 100;}
+
+.seccion h2 {font-family:"Borel", cursive; color: rgba(63,34,24,1.00); font-size: 40px}
+
+#marin {position: absolute; right: -10%; top: 12%;}
+#marin:hover {transform: translateX(60px); transition:linear 3s;}
+
+#gojo {position: absolute; left: -10%; top:12%;}
+#gojo:hover {transform: rotate(45deg) scale(0.80); transition: ease-in 2s;}
+
+#inui {position: absolute; right: -10%; top:12%;}
+#inui:hover {transform: translate(100px, 50px); transition:ease-out 5s ;}
+
+#amane {position: absolute; left: -10%; top: 12%; }
+#amane:hover {transform: skewX(90deg); transition: ease-out 5s;}
+
+#akira {position: absolute; right: -12%; top: 12%}
+#akira:hover {transform: translateX(60px); transition: 3s;}
+
+li a {text-decoration: none; color: white;}
+li a:hover {color: magenta;}
